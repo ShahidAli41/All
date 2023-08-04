@@ -3,6 +3,10 @@ font-family: 'Arial', sans-serif;
 margin: auto;
 padding: auto;
 background-color: #f2f2f2;
+background-image: url(https://gifdb.com/images/high/outer-space-planets-background-d6dsvq0armnh3ajg.gif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 
 header {
@@ -96,12 +100,13 @@ main {
     padding: 20px;
 }
 .hero-section {
-    background-image: url('hero.jpg');
+    /* background-image: url(https://gifdb.com/images/high/white-dots-on-blue-background-txkjni4df7a0meza.gif); */
     background-size: cover;
     background-position: center;
+    height: 30em;
     text-align: center;
     padding: 100px 0;
-    color: #fff;
+    color: #f7f3f3;
 }
 
 .hero-section h1 {
@@ -110,8 +115,13 @@ main {
 }
 
 .hero-section p {
-    font-size: 24px;
+    font-size: 15px;
+    /* color: rgb(247, 243, 5); */
+    text-decoration: underline;
 }
 footer {
-    margin-top: 350px;
+    margin-top: 100px;
+    background-color: #06f512;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }

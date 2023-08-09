@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        .logo:hover,
+        .banner:hover,
+        .bar:hover,
+        .left:hover,
+        .center:hover,
+        .right:hover,
+        .left-block:hover,
+        .right-block:hover,
+        .module:hover,
+        .footer:hover,hr:hover{
+            background-color: aqua;
+            border-radius: 10px;
+        }
+
+        .logo {
+            border: 1px solid black;
+            width: 30%;
+            height: 80px;
+            float: left;
+        }
+
+        .banner {
+            border: 1px solid black;
+            width: 69.68%;
+            height: 80px;
+            float: right;
+        }
+
+        .bar {
+            border: 1px solid black;
+            width: 100%;
+            height: 80px;
+            clear: both;
+            margin-bottom: 20px;
+        }
+
+        .left {
+            border: 1px solid black;
+            width: 29%;
+            height: 400px;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            border: 1px solid black;
+            width: 41.5%;
+            height: 400px;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+        .center {
+            border: 1px solid black;
+            width: 100%;
+            height: 100px;
+            float: left;
+        }
+
+        .right {
+            border: 1px solid black;
+            width: 29%;
+            height: 400px;
+            float: right;
+            margin-bottom: 20px;
+        }
+
+        .left-block {
+            border: 1px solid black;
+            width: 49.6%;
+            height: 150px;
+            float: left;
+        }
+
+        .right-block {
+            border: 1px solid black;
+            width: 49.64%;
+            height: 150px;
+            float: right;
+        }
+
+        .module {
+            border: 1px solid black;
+            width: 100%;
+            height: 146px;
+            clear: both;
+        }
+
+        .footer {
+            border: 1px solid black;
+            width: 100%;
+            height: 80px;
+            clear: both;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: larger;
+        }
+        hr{
+            border-bottom: 5px solid brown;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <p>Header Logo</p>
+    </div>
+    <div class="banner">
+        <p>Header Banner</p>
+    </div>
+    <div class=" bar">
+        <p>Header Bar</p>
+    </div>
+    <div class="left">
+        <p>Left Blocks</p>
+    </div>
+    <div class="box">
+        <div class="center">
+            <p>Center-Center Blocks</p>
+        </div>
+        <div class="left-block">
+            <p>Center-Left Blocks</p>
+        </div>
+        <div class="right-block">
+            <p>Center-Right Blocks</p>
+        </div>
+        <div class="module">
+            <p>Modual-Content</p>
+        </div>
+    </div>
+    <div class="right">
+        <p>Right Blocks</p>
+    </div>
+
+
+    <div class="footer">
+        <p>Foot Bar</p>
+    </div><br>
+    <hr><br>
+    
+
+</body>
+
+</html>

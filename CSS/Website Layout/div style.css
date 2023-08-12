@@ -1,9 +1,10 @@
-body{
+body {
     background-image: url(./pngtree-blue-optoelectronics-background-backgroundtechnical-materialtechnology-backgroundarrowbackground-image_72733.jpg);
     background-size: cover;
-            background-repeat: no-repeat;
-            padding-left: 22px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
 }
+
 .one,
 .two {
     border: 3px solid;
@@ -37,7 +38,7 @@ div.four {
     margin-top: 2px;
     margin-left: 2px;
     margin-bottom: 1px;
-    
+
 }
 
 div.five {

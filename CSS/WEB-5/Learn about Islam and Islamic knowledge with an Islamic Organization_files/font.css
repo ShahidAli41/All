@@ -1,0 +1,15 @@
+@font-face{
+    font-family:Al-Qalam-V1;
+    src:local("Al Qalam Quran Majeed Web2_D"),
+    url("AlQalamQuranMajeedWeb2_D.otf");
+}
+@font-face{
+    font-family:'nafees_web_naskhshipped';
+    src:local("nafees_web_naskhshipped"),
+    url("nafees_web_naskhshipped.ttf");
+}
+@font-face {
+    font-family:'Al_Mushaf';
+    src:local("Al_Mushaf"),
+		url("Al_Mushaf.ttf");
+}

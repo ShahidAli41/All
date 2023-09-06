@@ -1,0 +1,16 @@
+h1{
+    font-family: Merriweather, serif;
+}
+.card-body{
+    text-align: center;
+}
+header .card-body{
+    text-align: left;
+}
+
+nav li i{
+color: #cbee57;
+}
+main h3 i{
+    color: #cbee57;   
+}

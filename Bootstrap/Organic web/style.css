@@ -1,0 +1,23 @@
+h1{
+    font-family: Merriweather, serif;
+}
+.card-body{
+    text-align: center;
+}
+header .card-body{
+    text-align: left;
+}
+
+main h3 i,.colr{
+    color: #92bb0c;   
+}
+
+.bg-image{
+    background-image: url('./images/sydney-rae-668606-unsplash.jpg');
+    height:22rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    a{
+        text-decoration: none;
+    }

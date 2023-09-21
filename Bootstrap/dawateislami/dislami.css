@@ -1,0 +1,123 @@
+.container{
+    margin-top: 10px;
+}
+.cut{
+    display: inline-block;
+    float: right;
+    justify-content: space-between;
+    font-size: x-large;
+}
+#lang{
+    border: none;
+    list-style: none;
+}
+button{
+    border: none;
+}
+.bg-nav{
+    background-color: ;
+}
+li{
+    font-size: small;
+}
+/* *************************************** */
+.topLangBarSec{
+    background: #fffffff2;
+    transition: 0.5s;
+    z-index: 9999999;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+ }
+ /* .topLangBarSec.toplangstky{
+    position: fixed !important;
+    top: 0;
+ } */
+ .topLangBarSec .topLang_bar {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    color: black;
+ }
+ .topLangBarSec .flag__anchor {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    height: 100%;
+ }
+ .topLangBarSec .flag__anchor img{
+    padding: 1px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+ }
+ .topLangBarSec a.flag__anchor.current {
+    font-size: 18px;
+    color: #3b3b79;
+    font-weight: 600;
+ }
+ .topLangBarSec a.flag__anchor.current img{
+    border-radius: 100px;
+    animation: borderAnimation 1s ease infinite;
+ }
+ @keyframes borderAnimation{
+    from{
+        border: 3px solid #d84148;
+    }
+    to{
+        border: 3px solid #d8414900;
+    }
+ }
+ .topLangBarSec .flag__anchor:hover img{
+    border: 3px solid #d84148;
+ }
+ .toplang_crose{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+ }
+ .toplang_crose i{
+    font-size: 20px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .toplang_crose i:hover{
+    color: #333;
+ }
+ @media(max-width: 992px){
+    .toplang_crose i{
+        width: 40%;
+    }
+ }
+ @media(max-width: 768px){
+    .row__columns.ml-2{
+        margin: 0px !important;
+    }
+ }
+ @media(max-width: 767px){
+    .toplang_crose i{
+        width: 80%;
+    }
+ }
+ @media(max-width: 480px){
+    .topLangBarSec .topLang_bar{
+        font-size: 15px;
+    }
+    .toplang_crose i{
+        width: 100%;
+    }
+ }
+ @media(max-width: 400px){
+    .topLangBarSec .topLang_bar{
+        font-size: 13px;
+    }
+ }
+ 

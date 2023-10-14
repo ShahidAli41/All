@@ -1,17 +1,25 @@
-document.write("<h2>(abusaad) Shahid Ali</h2>")
+// alert("my name is shahid")
+// alert("my book is java")
+// alert("my topic is java")
 
-alert("Wellcome to Js first Claas  Alert");
-console.log("This Example Off console")
-alert("this is line brack Example \n 1st line \n 2nd line \n 3rd line \n 4th line")
-alert("My Email-Address is faizanequran41@gmail.com")
-// alert("My Mobile No is 0313-2092639")
+// var myname= "My Name Is Shahid Ali"
+// var mynumber= "03232092639"
+// console.log (myname)
+// console.log (mynumber)
+
+var firstname="Shahid"
+var laststname=" Ali"
+var fullname= firstname + laststname
+console.log(fullname);
+alert(fullname)
 
 
-prompt("pleas Enter Your Full Name")
-var Name = "CCO-117323"
-var Example2 = "this is Variable alart Example"
-var Example = "spacial thanks for sir Rizwan Bhatti & Saylani SMIT"
 
-document.write(Name)
-alert(Example2)
-alert(Example)
+
+
+
+
+// alert(50+20)
+
+//ans 1 50+20
+// ans 2 5020
